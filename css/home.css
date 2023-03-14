@@ -1,0 +1,499 @@
+/* -----------------------------------------------------------
+	common
+----------------------------------------------------------- */
+body {
+  color: #1a202c;
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ul,
+ol,
+li {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+hr,
+br {
+  margin: 0;
+  padding: 0;
+}
+
+a,
+button,
+.btn {
+  transition: all 0.4s ease;
+}
+
+a {
+  text-decoration: none;
+}
+
+.over {
+  transition: all 0.4s ease;
+}
+.over:hover {
+  opacity: 0.7;
+}
+
+.container {
+  min-width: 1170px;
+  max-width: 1170px;
+  margin: 0 auto;
+}
+
+.list-style-none {
+  list-style: none !important;
+}
+
+.text-primary {
+  color: #2c5b90 !important;
+}
+
+@font-face {
+  font-family: "DM Sans";
+  src: url("../fonts/DMSans-Regular.ttf");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "DM Sans";
+  src: url("../fonts/DMSans-Medium.ttf");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "DM Sans";
+  src: url("../fonts/DMSans-Bold.ttf");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Outfit";
+  src: url("../fonts/Outfit-Regular.ttf");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Outfit";
+  src: url("../fonts/Outfit-Light.ttf");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Outfit";
+  src: url("../fonts/Outfit-Medium.ttf");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Outfit";
+  src: url("../fonts/Outfit-SemiBold.ttf");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Outfit";
+  src: url("../fonts/Outfit-Bold.ttf");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+.btn {
+  padding: 16px 32px;
+  background: #4f77ff;
+  border-radius: 5px;
+  border: none;
+  font-family: "Outfit";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 24px;
+  /* identical to box height, or 160% */
+  text-align: center;
+  letter-spacing: -0.3px;
+  text-transform: uppercase;
+  /* Text/Text White */
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.background-cover {
+  background-image: url("../images/home-bg-cover.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.intro-section {
+  padding: 198px 0 263px 0;
+  background-image: url("../images/home-cover.png");
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: 800px 600px;
+}
+.intro-section .intro-content {
+  max-width: 570px;
+}
+.intro-section .intro-content .sub-heading {
+  margin-bottom: 30px;
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+  /* or 156% */
+  letter-spacing: -0.3px;
+  /* Action/Blue */
+  color: #4f77ff;
+}
+.intro-section .intro-content .heading {
+  margin-bottom: 50px;
+  font-family: "Outfit";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 72px;
+  line-height: 78px;
+  /* or 108% */
+  letter-spacing: -2px;
+  /* Text/Text White */
+  color: #ffffff;
+}
+.intro-section .intro-content .description {
+  margin-bottom: 70px;
+  font-family: "Outfit";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 32px;
+  /* or 145% */
+  letter-spacing: -1px;
+  /* Text/Text White */
+  color: #ffffff;
+}
+.intro-section .intro-content .btn-container {
+  display: flex;
+  align-items: center;
+}
+.intro-section .intro-content .btn-container .btn-free {
+  margin-right: 8px;
+}
+.intro-section .intro-content .btn-container .btn-learn {
+  border: 1px solid #ffffff;
+  background: transparent;
+}
+
+.connect-team-section {
+  padding: 120px 0;
+}
+.connect-team-section .heading {
+  margin-bottom: 92px;
+  font-family: "Outfit";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 64px;
+  line-height: 72px;
+  /* identical to box height, or 112% */
+  text-align: center;
+  letter-spacing: -2px;
+  /* Text/Heading */
+  color: #2d3958;
+}
+.connect-team-section .connect-team-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.connect-team-section .connect-team-content .cards-container {
+  width: calc((100% - 110px) * 46%);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+.connect-team-section .connect-team-content .cards-container .card {
+  margin-bottom: 30px;
+  padding: 30px;
+  box-shadow: 0px 20px 50px rgba(79, 119, 255, 0.2);
+  border-radius: 20px;
+  display: flex;
+  align-items: flex-start;
+}
+.connect-team-section .connect-team-content .cards-container .card:last-child {
+  margin-bottom: 0;
+}
+.connect-team-section .connect-team-content .cards-container .card .card-icon {
+  min-width: 50px;
+  margin-right: 20px;
+}
+.connect-team-section .connect-team-content .cards-container .card .card-content .card-title {
+  margin-bottom: 14px;
+  font-family: "Outfit";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 32px;
+  /* or 145% */
+  letter-spacing: -1px;
+  /* Primary color/black */
+  color: #120f1f;
+}
+.connect-team-section .connect-team-content .cards-container .card .card-content .card-description {
+  max-width: 310px;
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  /* or 162% */
+  /* Text/Text */
+  color: #7b88a8;
+}
+.connect-team-section .connect-team-content .cards-container .card-workflows {
+  position: relative;
+  left: -50px;
+}
+.connect-team-section .connect-team-content .content-txt {
+  max-width: 50%;
+}
+.connect-team-section .connect-team-content .content-txt .content-heading {
+  margin-bottom: 30px;
+  font-family: "Outfit";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 46px;
+  /* identical to box height, or 128% */
+  letter-spacing: -1px;
+  /* Text/Heading */
+  color: #2d3958;
+}
+.connect-team-section .connect-team-content .content-txt .content-body {
+  margin-bottom: 70px;
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+  /* or 156% */
+  letter-spacing: -0.3px;
+  /* Black/200 */
+  color: #788190;
+}
+
+.teamwork-section {
+  padding: 120px 0 102px 0;
+  background: #f8fafc;
+}
+.teamwork-section .teamwork-content {
+  background-image: url("../images/teamwork-cover.png");
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: 570px 545px;
+}
+.teamwork-section .teamwork-content .content-txt {
+  max-width: calc((100% - 30px) / 2);
+}
+.teamwork-section .teamwork-content .content-txt .heading {
+  margin-bottom: 30px;
+  font-family: "Outfit";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 46px;
+  /* or 128% */
+  letter-spacing: -1px;
+  /* Text/Heading */
+  color: #2d3958;
+}
+.teamwork-section .teamwork-content .content-txt .description {
+  margin-bottom: 50px;
+  max-width: 470px;
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+  /* or 156% */
+  letter-spacing: -0.3px;
+  /* Black/200 */
+  color: #788190;
+}
+.teamwork-section .teamwork-content .content-txt .feature {
+  margin-bottom: 30px;
+  display: flex;
+  align-items: flex-start;
+}
+.teamwork-section .teamwork-content .content-txt .feature:last-child {
+  margin-bottom: 0;
+}
+.teamwork-section .teamwork-content .content-txt .feature svg {
+  margin-right: 12px;
+}
+.teamwork-section .teamwork-content .content-txt .feature .feature-content .heading {
+  margin-bottom: 10px;
+  font-family: "Outfit";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 28px;
+  /* identical to box height, or 156% */
+  letter-spacing: 0.4px;
+  /* Text/Heading */
+  color: #2d3958;
+}
+.teamwork-section .teamwork-content .content-txt .feature .feature-content .feature-description {
+  max-width: 424px;
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  /* or 162% */
+  /* Text/Text */
+  color: #7b88a8;
+}
+
+.platform-section {
+  padding: 120px 0 146px 0;
+}
+.platform-section .platform-content .heading {
+  margin-bottom: 30px;
+  font-family: "Outfit";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 56px;
+  /* identical to box height, or 117% */
+  text-align: center;
+  letter-spacing: -2px;
+  /* Text/Heading */
+  color: #2d3958;
+}
+.platform-section .platform-content .sub-heading {
+  margin-bottom: 100px;
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+  /* or 156% */
+  text-align: center;
+  letter-spacing: -0.3px;
+  /* Text/Text */
+  color: #7b88a8;
+}
+.platform-section .platform-content .platform-body {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.platform-section .platform-content .platform-body .cards-container {
+  max-width: calc((100% - 130px) * 55%);
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+.platform-section .platform-content .platform-body .cards-container .card-col {
+  width: calc((100% - 30px) / 2);
+  display: flex;
+  flex-direction: column;
+}
+.platform-section .platform-content .platform-body .cards-container .card-col .card {
+  margin-bottom: 30px;
+  padding: 45px 35px 35px 35px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid rgba(97, 119, 152, 0.2);
+  border-radius: 20px;
+}
+.platform-section .platform-content .platform-body .cards-container .card-col .card:last-child {
+  margin-bottom: 0;
+}
+.platform-section .platform-content .platform-body .cards-container .card-col .card:hover {
+  box-shadow: 0px 20px 50px rgba(79, 119, 255, 0.2);
+}
+.platform-section .platform-content .platform-body .cards-container .card-col .card:hover:first-child {
+  margin-top: -30px;
+  margin-bottom: 60px;
+}
+.platform-section .platform-content .platform-body .cards-container .card-col .card svg {
+  margin-bottom: 26px;
+}
+.platform-section .platform-content .platform-body .cards-container .card-col .card .card-heading {
+  margin-bottom: 20px;
+  font-family: "Outfit";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 32px;
+  /* or 145% */
+  text-align: center;
+  letter-spacing: -1px;
+  /* Primary color/black */
+  color: #120f1f;
+}
+.platform-section .platform-content .platform-body .cards-container .card-col .card .card-description {
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  /* or 162% */
+  text-align: center;
+  /* Text/Text */
+  color: #7b88a8;
+}
+.platform-section .platform-content .platform-body .cards-container .col-right {
+  margin-top: 90px;
+}
+.platform-section .platform-content .platform-body .article-container {
+  max-width: calc((100% - 130px) * 45%);
+}
+.platform-section .platform-content .platform-body .article-container .article-heading {
+  margin-bottom: 30px;
+  font-family: "Outfit";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 46px;
+  /* or 128% */
+  letter-spacing: -1px;
+  /* Text/Heading */
+  color: #2d3958;
+}
+.platform-section .platform-content .platform-body .article-container .article-main {
+  margin-bottom: 70px;
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+  /* or 156% */
+  letter-spacing: -0.3px;
+  /* Black/200 */
+  color: #788190;
+}
+
+/*# sourceMappingURL=home.css.map */
