@@ -35,13 +35,8 @@
   background-position: center;
   background-size: cover;
 }
-
 .intro-section {
   padding: 198px 0 263px 0;
-  background-image: url("../images/home-cover.png");
-  background-repeat: no-repeat;
-  background-position: right;
-  background-size: 800px 600px;
   .intro-content {
     max-width: 570px;
     .sub-heading {
@@ -127,7 +122,7 @@
     justify-content: space-between;
     .cards-container {
       // width: 490px;
-      width: calc((100% - 110px) * 46%);
+      width: calc((100% - 110px) * 0.46);
       display: flex;
       flex-direction: column;
       align-items: flex-end;
@@ -338,7 +333,7 @@
       align-items: center;
       justify-content: space-between;
       .cards-container {
-        max-width: calc((100% - 130px) * 55%);
+        max-width: calc((100% - 130px) * 0.55);
         // max-width: 570px;
         display: flex;
         align-items: flex-start;
@@ -405,7 +400,7 @@
         }
       }
       .article-container {
-        max-width: calc((100% - 130px) * 45%);
+        max-width: calc((100% - 130px) * 0.45);
         // max-width: 470px;
         .article-heading {
           margin-bottom: 30px;
@@ -436,6 +431,497 @@
           /* Black/200 */
 
           color: #788190;
+        }
+      }
+    }
+  }
+}
+
+.pick-a-plan-section {
+  padding-top: 120px;
+  padding-bottom: 428px;
+  background-color: #f8fafc;
+  position: relative;
+  .section-content {
+    text-align: center;
+    .heading {
+      margin-bottom: 30px;
+      font-family: "Outfit";
+      font-style: normal;
+      font-weight: 500;
+      font-size: 48px;
+      line-height: 56px;
+      /* identical to box height, or 117% */
+
+      text-align: center;
+      letter-spacing: -2px;
+
+      /* Text/Heading */
+
+      color: #2d3958;
+    }
+    .sub-heading {
+      margin-bottom: 100px;
+      font-family: "Outfit";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 22px;
+      line-height: 32px;
+      /* or 145% */
+
+      text-align: center;
+      letter-spacing: -1px;
+
+      /* Text/Text */
+
+      color: #7b88a8;
+    }
+    .toggle-container {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      .toggle-option {
+        font-family: "DM Sans";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 28px;
+        /* identical to box height, or 156% */
+
+        text-align: right;
+        letter-spacing: -0.3px;
+
+        /* Text/Text */
+
+        color: #7b88a8;
+      }
+      .switch {
+        margin: 0 16px;
+        position: relative;
+        display: inline-block;
+        width: 72px;
+        height: 33px;
+        input {
+          opacity: 0;
+          width: 0;
+          height: 0;
+        }
+        .slider {
+          position: absolute;
+          cursor: pointer;
+          top: 0;
+          left: 0;
+          right: 0;
+          bottom: 0;
+          background-color: #e7e5ea;
+          -webkit-transition: 0.4s;
+          transition: 0.4s;
+          &:before {
+            position: absolute;
+            content: "";
+            height: 21px;
+            width: 21px;
+            left: 6px;
+            bottom: 6px;
+            background-color: #34c635;
+            -webkit-transition: 0.4s;
+            transition: 0.4s;
+          }
+        }
+        .round {
+          border-radius: 16.5px;
+          &:before {
+            border-radius: 50%;
+          }
+        }
+        input:checked + .slider:before {
+          // -webkit-transform: translateX(26px);
+          // -ms-transform: translateX(26px);
+          transform: translateX(38px);
+        }
+      }
+      .badge-discount {
+        margin-left: 20px;
+        padding: 4px 12px;
+        background: #34c635;
+        border-radius: 5px;
+        font-family: "DM Sans";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 24px;
+        /* or 171% */
+
+        letter-spacing: -0.3px;
+
+        color: #ffffff;
+      }
+    }
+    .cards-container {
+      width: 1170px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      position: absolute;
+      left: 50% / 2;
+      bottom: -255px;
+      .card-plan {
+        width: calc((100% - 30px) / 2);
+        box-shadow: 0px 60px 40px rgba(18, 2, 47, 0.1);
+        text-align: center;
+        .main-content {
+          border-radius: 10px 10px 0 0;
+          background: #ffffff;
+          padding: 34px 100px 58px 100px;
+          .title {
+            margin-bottom: 20px;
+            font-family: "Outfit";
+            font-style: normal;
+            font-weight: 500;
+            font-size: 18px;
+            line-height: 28px;
+            /* identical to box height, or 156% */
+
+            text-align: center;
+            letter-spacing: 0.4px;
+
+            /* Action/Blue */
+
+            color: #4f77ff;
+          }
+          .price {
+            margin-bottom: 10px;
+            font-family: "Outfit";
+            font-style: normal;
+            font-weight: 500;
+            font-size: 36px;
+            line-height: 46px;
+            /* or 128% */
+
+            text-align: center;
+            letter-spacing: -1px;
+
+            /* Text/Heading */
+
+            color: #2d3958;
+          }
+          .plan-description {
+            margin: 0 auto 40px auto;
+            max-width: 280px;
+            font-family: "DM Sans";
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 26px;
+            /* or 162% */
+
+            text-align: center;
+
+            color: #696871;
+          }
+          .plan-features {
+            .feature {
+              margin-bottom: 14px;
+              display: flex;
+              align-items: center;
+              font-family: "Outfit";
+              font-style: normal;
+              font-weight: 400;
+              font-size: 22px;
+              line-height: 32px;
+              /* identical to box height, or 145% */
+
+              letter-spacing: -1px;
+
+              /* Text/Heading */
+
+              color: #2d3958;
+              &:last-child {
+                margin-bottom: 0;
+              }
+              svg {
+                margin-right: 12px;
+              }
+            }
+          }
+        }
+        .card-footer {
+          border-radius: 0 0 10px 10px;
+          padding: 18px 0;
+          background: #4f77ff;
+          .free-trial {
+            font-family: "Outfit";
+            font-style: normal;
+            font-weight: 500;
+            font-size: 15px;
+            line-height: 24px;
+            /* identical to box height, or 160% */
+
+            text-align: center;
+            letter-spacing: -0.3px;
+            text-transform: uppercase;
+
+            /* Text/Text White */
+
+            color: #ffffff;
+          }
+        }
+      }
+    }
+  }
+}
+
+.QnA-section {
+  padding: 378px 0 120px 0;
+  background-image: url("../images/QnA-cover.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  .QnA-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 100px;
+    padding-bottom: 100px;
+    border-bottom: 1px solid rgba(123, 136, 168, 0.3);
+    .QnA-col {
+      width: calc((100% - 30px) / 2);
+      .QnA {
+        margin-bottom: 50px;
+        &:last-child {
+          margin-bottom: 0;
+        }
+        .question {
+          margin-bottom: 10px;
+          font-family: "Outfit";
+          font-style: normal;
+          font-weight: 500;
+          font-size: 18px;
+          line-height: 28px;
+          /* identical to box height, or 156% */
+
+          letter-spacing: 0.4px;
+
+          /* Text/Text White */
+
+          color: #ffffff;
+        }
+        .answer {
+          font-family: "DM Sans";
+          font-style: normal;
+          font-weight: 400;
+          font-size: 16px;
+          line-height: 26px;
+          /* or 162% */
+
+          /* Text/Text Gray */
+
+          color: #e7e5ea;
+        }
+      }
+    }
+  }
+  .initiation-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    .initiation {
+      margin-bottom: 30px;
+      font-family: "Outfit";
+      font-style: normal;
+      font-weight: 500;
+      font-size: 48px;
+      line-height: 56px;
+      /* identical to box height, or 117% */
+
+      text-align: center;
+      letter-spacing: -2px;
+
+      /* Text/Text White */
+
+      color: #ffffff;
+    }
+    .sub-initiation {
+      margin-bottom: 70px;
+      font-family: "Outfit";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 22px;
+      line-height: 32px;
+      /* or 145% */
+
+      text-align: center;
+      letter-spacing: -1px;
+
+      /* Text/Text White */
+
+      color: #ffffff;
+    }
+  }
+}
+
+.brands-section {
+  padding: 120px 0;
+  .brands-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    .brands-title {
+      margin-bottom: 80px;
+      font-family: "Outfit";
+      font-style: normal;
+      font-weight: 500;
+      font-size: 36px;
+      line-height: 46px;
+      /* or 128% */
+
+      text-align: center;
+      letter-spacing: -1px;
+
+      /* Text color/black */
+
+      color: #000000;
+    }
+    .brands-container {
+      display: flex;
+      align-items: center;
+      .brand {
+        margin-right: 105px;
+        &:last-child {
+          margin-right: 0;
+        }
+      }
+      .google {
+        width: 129.55px;
+        height: 45.52px;
+      }
+      .netflix {
+        width: 126.05px;
+        height: 33.85px;
+      }
+      .slack {
+        width: 155.22px;
+        height: 39.68px;
+      }
+      .intercom {
+        width: 189.07px;
+        height: 47.85px;
+      }
+    }
+  }
+}
+
+.testimony-section {
+  padding: 120px 0;
+  background-color: #f8fafc;
+  .section-content {
+    .heading {
+      margin-bottom: 30px;
+      font-family: "Outfit";
+      font-style: normal;
+      font-weight: 500;
+      font-size: 48px;
+      line-height: 56px;
+      /* identical to box height, or 117% */
+
+      text-align: center;
+      letter-spacing: -2px;
+
+      /* Text/Heading */
+
+      color: #2d3958;
+    }
+    .sub-heading {
+      margin-bottom: 80px;
+      font-family: "Outfit";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 22px;
+      line-height: 32px;
+      /* or 145% */
+
+      text-align: center;
+      letter-spacing: -1px;
+
+      /* Text/Text */
+
+      color: #7b88a8;
+    }
+    .testimonies-container {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      .testimony-card {
+        width: calc((100% - 60px) / 3);
+        padding: 35px 35px 45px 35px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background: #ffffff;
+        /* Blue Shadow */
+        box-shadow: 0px 20px 50px rgba(79, 119, 255, 0.2);
+        border-radius: 20px;
+        .client-img {
+          margin-bottom: 10px;
+          width: 70px;
+          height: 70px;
+        }
+        .client-name {
+          margin-bottom: 5px;
+          font-family: "Outfit";
+          font-style: normal;
+          font-weight: 400;
+          font-size: 22px;
+          line-height: 32px;
+          /* or 145% */
+
+          text-align: center;
+          letter-spacing: -1px;
+
+          /* Text/Heading */
+
+          color: #2d3958;
+        }
+        .client-job {
+          margin-bottom: 20px;
+          font-family: "DM Sans";
+          font-style: normal;
+          font-weight: 400;
+          font-size: 16px;
+          line-height: 26px;
+          /* or 162% */
+
+          text-align: center;
+
+          /* Text/Text */
+
+          color: rgba(123, 136, 168, 0.8);
+        }
+        .rating-container {
+          margin-bottom: 30px;
+          display: flex;
+          align-items: center;
+          svg {
+            margin-right: 6px;
+            &:last-child {
+              margin-right: 0;
+            }
+          }
+        }
+        .client-testimony {
+          font-family: "DM Sans";
+          font-style: normal;
+          font-weight: 400;
+          font-size: 18px;
+          line-height: 28px;
+          /* or 156% */
+
+          text-align: center;
+          letter-spacing: -0.3px;
+
+          /* Text/Text */
+
+          color: #7b88a8;
         }
       }
     }

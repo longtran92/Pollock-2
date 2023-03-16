@@ -238,7 +238,342 @@
         </div>
       </div>
 
+    </div>
+  </section>
 
+  <section class="pick-a-plan-section">
+    <div class="container">
+      <div class="section-content">
+        <h2 class="heading">Set up your app, pick a plan later</h2>
+        <p class="sub-heading">Try Shopify free for 14 days, no credit card required</p>
+        <div class="toggle-container">
+          <span class="toggle-option">Monthly</span>
+          <label class="switch">
+            <input type="checkbox">
+            <span class="slider round"></span>
+          </label>
+          <span class="toggle-option">Yearly</span>
+          <div class="badge-discount">Save 20%</div>
+        </div>
+        <div class="cards-container">
+          <div class="card-plan">
+            <div class="main-content">
+              <h6 class="title">Basic</h6>
+              <div class="price">$19/mo</div>
+              <p class="plan-description">Best for new startups or businesses
+                with occasional in-person sales</p>
+              <ul class="plan-features">
+                <li class="feature">
+                  <svg width="32" height="30" viewBox="0 0 32 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path opacity="0.1" fill-rule="evenodd" clip-rule="evenodd"
+                      d="M15.9501 30C24.6784 30 31.7541 23.2843 31.7541 15C31.7541 6.71573 24.6784 0 15.9501 0C7.22172 0 0.145996 6.71573 0.145996 15C0.145996 23.2843 7.22172 30 15.9501 30Z"
+                      fill="#4F77FF" />
+                    <path
+                      d="M14.6294 20C14.3929 20 14.1569 19.9157 13.9763 19.7468L9.62842 15.6791L10.9346 14.4567L14.6294 17.9134L22.0191 11L23.3253 12.2224L15.2825 19.7468C15.1019 19.9157 14.8659 20 14.6294 20Z"
+                      fill="#4F77FF" />
+                  </svg>
+                  <span class="feature-txt">Unlimited editable boards</span>
+                </li>
+                <li class="feature">
+                  <svg width="32" height="30" viewBox="0 0 32 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path opacity="0.1" fill-rule="evenodd" clip-rule="evenodd"
+                      d="M15.9501 30C24.6784 30 31.7541 23.2843 31.7541 15C31.7541 6.71573 24.6784 0 15.9501 0C7.22172 0 0.145996 6.71573 0.145996 15C0.145996 23.2843 7.22172 30 15.9501 30Z"
+                      fill="#4F77FF" />
+                    <path
+                      d="M14.6294 20C14.3929 20 14.1569 19.9157 13.9763 19.7468L9.62842 15.6791L10.9346 14.4567L14.6294 17.9134L22.0191 11L23.3253 12.2224L15.2825 19.7468C15.1019 19.9157 14.8659 20 14.6294 20Z"
+                      fill="#4F77FF" />
+                  </svg>
+                  <span class="feature-txt">Unlimited visitors</span>
+                </li>
+                <li class="feature">
+                  <svg width="32" height="30" viewBox="0 0 32 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path opacity="0.1" fill-rule="evenodd" clip-rule="evenodd"
+                      d="M15.9501 30C24.6784 30 31.7541 23.2843 31.7541 15C31.7541 6.71573 24.6784 0 15.9501 0C7.22172 0 0.145996 6.71573 0.145996 15C0.145996 23.2843 7.22172 30 15.9501 30Z"
+                      fill="#4F77FF" />
+                    <path
+                      d="M14.6294 20C14.3929 20 14.1569 19.9157 13.9763 19.7468L9.62842 15.6791L10.9346 14.4567L14.6294 17.9134L22.0191 11L23.3253 12.2224L15.2825 19.7468C15.1019 19.9157 14.8659 20 14.6294 20Z"
+                      fill="#4F77FF" />
+                  </svg>
+                  <span class="feature-txt">Custom templates</span>
+                </li>
+                <li class="feature">
+                  <svg width="32" height="30" viewBox="0 0 32 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path opacity="0.1" fill-rule="evenodd" clip-rule="evenodd"
+                      d="M15.9501 30C24.6784 30 31.7541 23.2843 31.7541 15C31.7541 6.71573 24.6784 0 15.9501 0C7.22172 0 0.145996 6.71573 0.145996 15C0.145996 23.2843 7.22172 30 15.9501 30Z"
+                      fill="#4F77FF" />
+                    <path
+                      d="M14.6294 20C14.3929 20 14.1569 19.9157 13.9763 19.7468L9.62842 15.6791L10.9346 14.4567L14.6294 17.9134L22.0191 11L23.3253 12.2224L15.2825 19.7468C15.1019 19.9157 14.8659 20 14.6294 20Z"
+                      fill="#4F77FF" />
+                  </svg>
+                  <span class="feature-txt">Account management</span>
+                </li>
+                <li class="feature">
+                  <svg width="32" height="30" viewBox="0 0 32 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path opacity="0.1" fill-rule="evenodd" clip-rule="evenodd"
+                      d="M15.9501 30C24.6784 30 31.7541 23.2843 31.7541 15C31.7541 6.71573 24.6784 0 15.9501 0C7.22172 0 0.145996 6.71573 0.145996 15C0.145996 23.2843 7.22172 30 15.9501 30Z"
+                      fill="#4F77FF" />
+                    <path
+                      d="M14.6294 20C14.3929 20 14.1569 19.9157 13.9763 19.7468L9.62842 15.6791L10.9346 14.4567L14.6294 17.9134L22.0191 11L23.3253 12.2224L15.2825 19.7468C15.1019 19.9157 14.8659 20 14.6294 20Z"
+                      fill="#4F77FF" />
+                  </svg>
+                  <span class="feature-txt">24/7 Support Online</span>
+                </li>
+              </ul>
+            </div>
+            <div class="card-footer">
+              <span class="free-trial">Start your free trial</span>
+            </div>
+          </div>
+          <div class="card-plan">
+            <div class="main-content">
+              <h6 class="title">Professional</h6>
+              <div class="price">$39/mo</div>
+              <p class="plan-description">Best for new startups or businesses
+                with occasional in-person sales</p>
+              <ul class="plan-features">
+                <li class="feature">
+                  <svg width="32" height="30" viewBox="0 0 32 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path opacity="0.1" fill-rule="evenodd" clip-rule="evenodd"
+                      d="M15.9501 30C24.6784 30 31.7541 23.2843 31.7541 15C31.7541 6.71573 24.6784 0 15.9501 0C7.22172 0 0.145996 6.71573 0.145996 15C0.145996 23.2843 7.22172 30 15.9501 30Z"
+                      fill="#4F77FF" />
+                    <path
+                      d="M14.6294 20C14.3929 20 14.1569 19.9157 13.9763 19.7468L9.62842 15.6791L10.9346 14.4567L14.6294 17.9134L22.0191 11L23.3253 12.2224L15.2825 19.7468C15.1019 19.9157 14.8659 20 14.6294 20Z"
+                      fill="#4F77FF" />
+                  </svg>
+                  <span class="feature-txt">Unlimited editable boards</span>
+                </li>
+                <li class="feature">
+                  <svg width="32" height="30" viewBox="0 0 32 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path opacity="0.1" fill-rule="evenodd" clip-rule="evenodd"
+                      d="M15.9501 30C24.6784 30 31.7541 23.2843 31.7541 15C31.7541 6.71573 24.6784 0 15.9501 0C7.22172 0 0.145996 6.71573 0.145996 15C0.145996 23.2843 7.22172 30 15.9501 30Z"
+                      fill="#4F77FF" />
+                    <path
+                      d="M14.6294 20C14.3929 20 14.1569 19.9157 13.9763 19.7468L9.62842 15.6791L10.9346 14.4567L14.6294 17.9134L22.0191 11L23.3253 12.2224L15.2825 19.7468C15.1019 19.9157 14.8659 20 14.6294 20Z"
+                      fill="#4F77FF" />
+                  </svg>
+                  <span class="feature-txt">Unlimited visitors</span>
+                </li>
+                <li class="feature">
+                  <svg width="32" height="30" viewBox="0 0 32 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path opacity="0.1" fill-rule="evenodd" clip-rule="evenodd"
+                      d="M15.9501 30C24.6784 30 31.7541 23.2843 31.7541 15C31.7541 6.71573 24.6784 0 15.9501 0C7.22172 0 0.145996 6.71573 0.145996 15C0.145996 23.2843 7.22172 30 15.9501 30Z"
+                      fill="#4F77FF" />
+                    <path
+                      d="M14.6294 20C14.3929 20 14.1569 19.9157 13.9763 19.7468L9.62842 15.6791L10.9346 14.4567L14.6294 17.9134L22.0191 11L23.3253 12.2224L15.2825 19.7468C15.1019 19.9157 14.8659 20 14.6294 20Z"
+                      fill="#4F77FF" />
+                  </svg>
+                  <span class="feature-txt">Custom templates</span>
+                </li>
+                <li class="feature">
+                  <svg width="32" height="30" viewBox="0 0 32 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path opacity="0.1" fill-rule="evenodd" clip-rule="evenodd"
+                      d="M15.9501 30C24.6784 30 31.7541 23.2843 31.7541 15C31.7541 6.71573 24.6784 0 15.9501 0C7.22172 0 0.145996 6.71573 0.145996 15C0.145996 23.2843 7.22172 30 15.9501 30Z"
+                      fill="#4F77FF" />
+                    <path
+                      d="M14.6294 20C14.3929 20 14.1569 19.9157 13.9763 19.7468L9.62842 15.6791L10.9346 14.4567L14.6294 17.9134L22.0191 11L23.3253 12.2224L15.2825 19.7468C15.1019 19.9157 14.8659 20 14.6294 20Z"
+                      fill="#4F77FF" />
+                  </svg>
+                  <span class="feature-txt">Account management</span>
+                </li>
+                <li class="feature">
+                  <svg width="32" height="30" viewBox="0 0 32 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path opacity="0.1" fill-rule="evenodd" clip-rule="evenodd"
+                      d="M15.9501 30C24.6784 30 31.7541 23.2843 31.7541 15C31.7541 6.71573 24.6784 0 15.9501 0C7.22172 0 0.145996 6.71573 0.145996 15C0.145996 23.2843 7.22172 30 15.9501 30Z"
+                      fill="#4F77FF" />
+                    <path
+                      d="M14.6294 20C14.3929 20 14.1569 19.9157 13.9763 19.7468L9.62842 15.6791L10.9346 14.4567L14.6294 17.9134L22.0191 11L23.3253 12.2224L15.2825 19.7468C15.1019 19.9157 14.8659 20 14.6294 20Z"
+                      fill="#4F77FF" />
+                  </svg>
+                  <span class="feature-txt">24/7 Support Online</span>
+                </li>
+              </ul>
+            </div>
+            <div class="card-footer">
+              <span class="free-trial">Start your free trial</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="QnA-section">
+    <div class="container">
+      <div class="QnA-content">
+        <div class="QnA-wrapper">
+          <div class="QnA-col QnA-left">
+            <div class="QnA">
+              <p class="question">Do I need to enter my payment details to sign up?</p>
+              <p class="answer">No. You can sign up and use Pollock for 14 days without entering your payment details.
+                At the end of your trial, or when you decide to launch
+                your store, you will need to pick a plan and enter your payment details.</p>
+            </div>
+            <div class="QnA">
+              <p class="question">Can I use my own domain name?</p>
+              <p class="answer">Yes. You can purchase a domain name within Pollock, or use an existing
+                one that you own. We also provide a free myshopify.com domain name
+                to all stores on sign up.</p>
+            </div>
+            <div class="QnA">
+              <p class="question">Do I need a web host?</p>
+              <p class="answer">Pollock includes secure, unlimited ecommerce hosting on all plans except Pollock Lite.
+                You can also use the Buy Button to add our application to any existing website.</p>
+            </div>
+          </div>
+          <div class="QnA-col QnA-right">
+            <div class="QnA">
+              <p class="question">Do I need to enter my payment details to sign up?</p>
+              <p class="answer">No. You can sign up and use Pollock for 14 days without entering your payment details.
+                At the end of your trial, or when you decide to launch
+                your store, you will need to pick a plan and enter your payment details.</p>
+            </div>
+            <div class="QnA">
+              <p class="question">Can I use my own domain name?</p>
+              <p class="answer">Yes. You can purchase a domain name within Pollock, or use an existing
+                one that you own. We also provide a free myshopify.com domain name
+                to all stores on sign up.</p>
+            </div>
+            <div class="QnA">
+              <p class="question">Do I need a web host?</p>
+              <p class="answer">Pollock includes secure, unlimited ecommerce hosting on all plans except Pollock Lite.
+                You can also use the Buy Button to add our application to any existing website.</p>
+            </div>
+          </div>
+        </div>
+        <div class="initiation-container">
+          <h2 class="initiation">Start your 14-day free trial today!</h2>
+          <p class="sub-initiation">Try Shopify free for 14 days, no credit card required.</p>
+          <button class="btn">Get Started</button>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <section class="brands-section">
+    <div class="container">
+      <div class="brands-content">
+        <h4 class="brands-title">Working with the most trusted brands in the industry</h4>
+        <div class="brands-container">
+          <img src="./images/google.png" alt="" class="brand google">
+          <img src="./images/netflix.png" alt="" class="brand netflix">
+          <img src="./images/slack.png" alt="" class="brand slack">
+          <img src="./images/intercom.png" alt="" class="brand intercom">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="testimony-section">
+    <div class="container">
+      <div class="section-content">
+        <h2 class="heading">What our clients are saying about us</h2>
+        <p class="sub-heading">Customer satisfaction is a primary goal for our company</p>
+        <div class="testimonies-container">
+          <div class="testimony-card">
+            <img src="./images/monica.png" alt="" class="client-img">
+            <div class="client-name">Monica Smith</div>
+            <div class="client-job">Web Designer</div>
+            <div class="rating-container">
+              <svg width="16" height="15" viewBox="0 0 16 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M15.0497 5.46361C14.9503 5.15808 14.6793 4.94176 14.36 4.91287L10.0042 4.51742L8.28275 0.4872C8.15565 0.191104 7.86647 0 7.54458 0C7.2227 0 6.93339 0.191104 6.80711 0.4872L5.08567 4.51742L0.729197 4.91287C0.409846 4.94234 0.139423 5.15865 0.0394963 5.46361C-0.0598547 5.76915 0.0318981 6.10427 0.273426 6.3161L3.56605 9.20326L2.59522 13.4792C2.52419 13.7936 2.64622 14.1187 2.90709 14.3072C3.04731 14.4091 3.21205 14.46 3.37737 14.46C3.51943 14.46 3.6616 14.4222 3.78859 14.3463L7.54458 12.1004L11.2999 14.3463C11.5754 14.5109 11.9218 14.4958 12.1821 14.3072C12.4429 14.1187 12.565 13.7936 12.4939 13.4792L11.5231 9.20326L14.8157 6.3161C15.0572 6.10427 15.149 5.76984 15.0497 5.46361Z"
+                  fill="#F9E492" />
+              </svg>
+              <svg width="16" height="15" viewBox="0 0 16 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M15.0497 5.46361C14.9503 5.15808 14.6793 4.94176 14.36 4.91287L10.0042 4.51742L8.28275 0.4872C8.15565 0.191104 7.86647 0 7.54458 0C7.2227 0 6.93339 0.191104 6.80711 0.4872L5.08567 4.51742L0.729197 4.91287C0.409846 4.94234 0.139423 5.15865 0.0394963 5.46361C-0.0598547 5.76915 0.0318981 6.10427 0.273426 6.3161L3.56605 9.20326L2.59522 13.4792C2.52419 13.7936 2.64622 14.1187 2.90709 14.3072C3.04731 14.4091 3.21205 14.46 3.37737 14.46C3.51943 14.46 3.6616 14.4222 3.78859 14.3463L7.54458 12.1004L11.2999 14.3463C11.5754 14.5109 11.9218 14.4958 12.1821 14.3072C12.4429 14.1187 12.565 13.7936 12.4939 13.4792L11.5231 9.20326L14.8157 6.3161C15.0572 6.10427 15.149 5.76984 15.0497 5.46361Z"
+                  fill="#F9E492" />
+              </svg>
+              <svg width="16" height="15" viewBox="0 0 16 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M15.0497 5.46361C14.9503 5.15808 14.6793 4.94176 14.36 4.91287L10.0042 4.51742L8.28275 0.4872C8.15565 0.191104 7.86647 0 7.54458 0C7.2227 0 6.93339 0.191104 6.80711 0.4872L5.08567 4.51742L0.729197 4.91287C0.409846 4.94234 0.139423 5.15865 0.0394963 5.46361C-0.0598547 5.76915 0.0318981 6.10427 0.273426 6.3161L3.56605 9.20326L2.59522 13.4792C2.52419 13.7936 2.64622 14.1187 2.90709 14.3072C3.04731 14.4091 3.21205 14.46 3.37737 14.46C3.51943 14.46 3.6616 14.4222 3.78859 14.3463L7.54458 12.1004L11.2999 14.3463C11.5754 14.5109 11.9218 14.4958 12.1821 14.3072C12.4429 14.1187 12.565 13.7936 12.4939 13.4792L11.5231 9.20326L14.8157 6.3161C15.0572 6.10427 15.149 5.76984 15.0497 5.46361Z"
+                  fill="#F9E492" />
+              </svg>
+              <svg width="16" height="15" viewBox="0 0 16 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M15.0497 5.46361C14.9503 5.15808 14.6793 4.94176 14.36 4.91287L10.0042 4.51742L8.28275 0.4872C8.15565 0.191104 7.86647 0 7.54458 0C7.2227 0 6.93339 0.191104 6.80711 0.4872L5.08567 4.51742L0.729197 4.91287C0.409846 4.94234 0.139423 5.15865 0.0394963 5.46361C-0.0598547 5.76915 0.0318981 6.10427 0.273426 6.3161L3.56605 9.20326L2.59522 13.4792C2.52419 13.7936 2.64622 14.1187 2.90709 14.3072C3.04731 14.4091 3.21205 14.46 3.37737 14.46C3.51943 14.46 3.6616 14.4222 3.78859 14.3463L7.54458 12.1004L11.2999 14.3463C11.5754 14.5109 11.9218 14.4958 12.1821 14.3072C12.4429 14.1187 12.565 13.7936 12.4939 13.4792L11.5231 9.20326L14.8157 6.3161C15.0572 6.10427 15.149 5.76984 15.0497 5.46361Z"
+                  fill="#F9E492" />
+              </svg>
+              <svg width="16" height="15" viewBox="0 0 16 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M15.0497 5.46361C14.9503 5.15808 14.6793 4.94176 14.36 4.91287L10.0042 4.51742L8.28275 0.4872C8.15565 0.191104 7.86647 0 7.54458 0C7.2227 0 6.93339 0.191104 6.80711 0.4872L5.08567 4.51742L0.729197 4.91287C0.409846 4.94234 0.139423 5.15865 0.0394963 5.46361C-0.0598547 5.76915 0.0318981 6.10427 0.273426 6.3161L3.56605 9.20326L2.59522 13.4792C2.52419 13.7936 2.64622 14.1187 2.90709 14.3072C3.04731 14.4091 3.21205 14.46 3.37737 14.46C3.51943 14.46 3.6616 14.4222 3.78859 14.3463L7.54458 12.1004L11.2999 14.3463C11.5754 14.5109 11.9218 14.4958 12.1821 14.3072C12.4429 14.1187 12.565 13.7936 12.4939 13.4792L11.5231 9.20326L14.8157 6.3161C15.0572 6.10427 15.149 5.76984 15.0497 5.46361Z"
+                  fill="#F9E492" />
+              </svg>
+            </div>
+            <p class="client-testimony">Overall experience is awesome!! I'm a visual thinker, and I couldn't function
+              without a tool like this.</p>
+          </div>
+          <div class="testimony-card">
+            <img src="./images/vincent.png" alt="" class="client-img">
+            <div class="client-name">Vincent Smith</div>
+            <div class="client-job">Web Designer</div>
+            <div class="rating-container">
+              <svg width="16" height="15" viewBox="0 0 16 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M15.0497 5.46361C14.9503 5.15808 14.6793 4.94176 14.36 4.91287L10.0042 4.51742L8.28275 0.4872C8.15565 0.191104 7.86647 0 7.54458 0C7.2227 0 6.93339 0.191104 6.80711 0.4872L5.08567 4.51742L0.729197 4.91287C0.409846 4.94234 0.139423 5.15865 0.0394963 5.46361C-0.0598547 5.76915 0.0318981 6.10427 0.273426 6.3161L3.56605 9.20326L2.59522 13.4792C2.52419 13.7936 2.64622 14.1187 2.90709 14.3072C3.04731 14.4091 3.21205 14.46 3.37737 14.46C3.51943 14.46 3.6616 14.4222 3.78859 14.3463L7.54458 12.1004L11.2999 14.3463C11.5754 14.5109 11.9218 14.4958 12.1821 14.3072C12.4429 14.1187 12.565 13.7936 12.4939 13.4792L11.5231 9.20326L14.8157 6.3161C15.0572 6.10427 15.149 5.76984 15.0497 5.46361Z"
+                  fill="#F9E492" />
+              </svg>
+              <svg width="16" height="15" viewBox="0 0 16 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M15.0497 5.46361C14.9503 5.15808 14.6793 4.94176 14.36 4.91287L10.0042 4.51742L8.28275 0.4872C8.15565 0.191104 7.86647 0 7.54458 0C7.2227 0 6.93339 0.191104 6.80711 0.4872L5.08567 4.51742L0.729197 4.91287C0.409846 4.94234 0.139423 5.15865 0.0394963 5.46361C-0.0598547 5.76915 0.0318981 6.10427 0.273426 6.3161L3.56605 9.20326L2.59522 13.4792C2.52419 13.7936 2.64622 14.1187 2.90709 14.3072C3.04731 14.4091 3.21205 14.46 3.37737 14.46C3.51943 14.46 3.6616 14.4222 3.78859 14.3463L7.54458 12.1004L11.2999 14.3463C11.5754 14.5109 11.9218 14.4958 12.1821 14.3072C12.4429 14.1187 12.565 13.7936 12.4939 13.4792L11.5231 9.20326L14.8157 6.3161C15.0572 6.10427 15.149 5.76984 15.0497 5.46361Z"
+                  fill="#F9E492" />
+              </svg>
+              <svg width="16" height="15" viewBox="0 0 16 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M15.0497 5.46361C14.9503 5.15808 14.6793 4.94176 14.36 4.91287L10.0042 4.51742L8.28275 0.4872C8.15565 0.191104 7.86647 0 7.54458 0C7.2227 0 6.93339 0.191104 6.80711 0.4872L5.08567 4.51742L0.729197 4.91287C0.409846 4.94234 0.139423 5.15865 0.0394963 5.46361C-0.0598547 5.76915 0.0318981 6.10427 0.273426 6.3161L3.56605 9.20326L2.59522 13.4792C2.52419 13.7936 2.64622 14.1187 2.90709 14.3072C3.04731 14.4091 3.21205 14.46 3.37737 14.46C3.51943 14.46 3.6616 14.4222 3.78859 14.3463L7.54458 12.1004L11.2999 14.3463C11.5754 14.5109 11.9218 14.4958 12.1821 14.3072C12.4429 14.1187 12.565 13.7936 12.4939 13.4792L11.5231 9.20326L14.8157 6.3161C15.0572 6.10427 15.149 5.76984 15.0497 5.46361Z"
+                  fill="#F9E492" />
+              </svg>
+              <svg width="16" height="15" viewBox="0 0 16 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M15.0497 5.46361C14.9503 5.15808 14.6793 4.94176 14.36 4.91287L10.0042 4.51742L8.28275 0.4872C8.15565 0.191104 7.86647 0 7.54458 0C7.2227 0 6.93339 0.191104 6.80711 0.4872L5.08567 4.51742L0.729197 4.91287C0.409846 4.94234 0.139423 5.15865 0.0394963 5.46361C-0.0598547 5.76915 0.0318981 6.10427 0.273426 6.3161L3.56605 9.20326L2.59522 13.4792C2.52419 13.7936 2.64622 14.1187 2.90709 14.3072C3.04731 14.4091 3.21205 14.46 3.37737 14.46C3.51943 14.46 3.6616 14.4222 3.78859 14.3463L7.54458 12.1004L11.2999 14.3463C11.5754 14.5109 11.9218 14.4958 12.1821 14.3072C12.4429 14.1187 12.565 13.7936 12.4939 13.4792L11.5231 9.20326L14.8157 6.3161C15.0572 6.10427 15.149 5.76984 15.0497 5.46361Z"
+                  fill="#F9E492" />
+              </svg>
+              <svg width="16" height="15" viewBox="0 0 16 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M15.0497 5.46361C14.9503 5.15808 14.6793 4.94176 14.36 4.91287L10.0042 4.51742L8.28275 0.4872C8.15565 0.191104 7.86647 0 7.54458 0C7.2227 0 6.93339 0.191104 6.80711 0.4872L5.08567 4.51742L0.729197 4.91287C0.409846 4.94234 0.139423 5.15865 0.0394963 5.46361C-0.0598547 5.76915 0.0318981 6.10427 0.273426 6.3161L3.56605 9.20326L2.59522 13.4792C2.52419 13.7936 2.64622 14.1187 2.90709 14.3072C3.04731 14.4091 3.21205 14.46 3.37737 14.46C3.51943 14.46 3.6616 14.4222 3.78859 14.3463L7.54458 12.1004L11.2999 14.3463C11.5754 14.5109 11.9218 14.4958 12.1821 14.3072C12.4429 14.1187 12.565 13.7936 12.4939 13.4792L11.5231 9.20326L14.8157 6.3161C15.0572 6.10427 15.149 5.76984 15.0497 5.46361Z"
+                  fill="#F9E492" />
+              </svg>
+            </div>
+            <p class="client-testimony">Overall experience is awesome!! I'm a visual thinker, and I couldn't function
+              without a tool like this.</p>
+          </div>
+          <div class="testimony-card">
+            <img src="./images/stella.png" alt="" class="client-img">
+            <div class="client-name">Stella Smith</div>
+            <div class="client-job">Web Designer</div>
+            <div class="rating-container">
+              <svg width="16" height="15" viewBox="0 0 16 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M15.0497 5.46361C14.9503 5.15808 14.6793 4.94176 14.36 4.91287L10.0042 4.51742L8.28275 0.4872C8.15565 0.191104 7.86647 0 7.54458 0C7.2227 0 6.93339 0.191104 6.80711 0.4872L5.08567 4.51742L0.729197 4.91287C0.409846 4.94234 0.139423 5.15865 0.0394963 5.46361C-0.0598547 5.76915 0.0318981 6.10427 0.273426 6.3161L3.56605 9.20326L2.59522 13.4792C2.52419 13.7936 2.64622 14.1187 2.90709 14.3072C3.04731 14.4091 3.21205 14.46 3.37737 14.46C3.51943 14.46 3.6616 14.4222 3.78859 14.3463L7.54458 12.1004L11.2999 14.3463C11.5754 14.5109 11.9218 14.4958 12.1821 14.3072C12.4429 14.1187 12.565 13.7936 12.4939 13.4792L11.5231 9.20326L14.8157 6.3161C15.0572 6.10427 15.149 5.76984 15.0497 5.46361Z"
+                  fill="#F9E492" />
+              </svg>
+              <svg width="16" height="15" viewBox="0 0 16 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M15.0497 5.46361C14.9503 5.15808 14.6793 4.94176 14.36 4.91287L10.0042 4.51742L8.28275 0.4872C8.15565 0.191104 7.86647 0 7.54458 0C7.2227 0 6.93339 0.191104 6.80711 0.4872L5.08567 4.51742L0.729197 4.91287C0.409846 4.94234 0.139423 5.15865 0.0394963 5.46361C-0.0598547 5.76915 0.0318981 6.10427 0.273426 6.3161L3.56605 9.20326L2.59522 13.4792C2.52419 13.7936 2.64622 14.1187 2.90709 14.3072C3.04731 14.4091 3.21205 14.46 3.37737 14.46C3.51943 14.46 3.6616 14.4222 3.78859 14.3463L7.54458 12.1004L11.2999 14.3463C11.5754 14.5109 11.9218 14.4958 12.1821 14.3072C12.4429 14.1187 12.565 13.7936 12.4939 13.4792L11.5231 9.20326L14.8157 6.3161C15.0572 6.10427 15.149 5.76984 15.0497 5.46361Z"
+                  fill="#F9E492" />
+              </svg>
+              <svg width="16" height="15" viewBox="0 0 16 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M15.0497 5.46361C14.9503 5.15808 14.6793 4.94176 14.36 4.91287L10.0042 4.51742L8.28275 0.4872C8.15565 0.191104 7.86647 0 7.54458 0C7.2227 0 6.93339 0.191104 6.80711 0.4872L5.08567 4.51742L0.729197 4.91287C0.409846 4.94234 0.139423 5.15865 0.0394963 5.46361C-0.0598547 5.76915 0.0318981 6.10427 0.273426 6.3161L3.56605 9.20326L2.59522 13.4792C2.52419 13.7936 2.64622 14.1187 2.90709 14.3072C3.04731 14.4091 3.21205 14.46 3.37737 14.46C3.51943 14.46 3.6616 14.4222 3.78859 14.3463L7.54458 12.1004L11.2999 14.3463C11.5754 14.5109 11.9218 14.4958 12.1821 14.3072C12.4429 14.1187 12.565 13.7936 12.4939 13.4792L11.5231 9.20326L14.8157 6.3161C15.0572 6.10427 15.149 5.76984 15.0497 5.46361Z"
+                  fill="#F9E492" />
+              </svg>
+              <svg width="16" height="15" viewBox="0 0 16 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M15.0497 5.46361C14.9503 5.15808 14.6793 4.94176 14.36 4.91287L10.0042 4.51742L8.28275 0.4872C8.15565 0.191104 7.86647 0 7.54458 0C7.2227 0 6.93339 0.191104 6.80711 0.4872L5.08567 4.51742L0.729197 4.91287C0.409846 4.94234 0.139423 5.15865 0.0394963 5.46361C-0.0598547 5.76915 0.0318981 6.10427 0.273426 6.3161L3.56605 9.20326L2.59522 13.4792C2.52419 13.7936 2.64622 14.1187 2.90709 14.3072C3.04731 14.4091 3.21205 14.46 3.37737 14.46C3.51943 14.46 3.6616 14.4222 3.78859 14.3463L7.54458 12.1004L11.2999 14.3463C11.5754 14.5109 11.9218 14.4958 12.1821 14.3072C12.4429 14.1187 12.565 13.7936 12.4939 13.4792L11.5231 9.20326L14.8157 6.3161C15.0572 6.10427 15.149 5.76984 15.0497 5.46361Z"
+                  fill="#F9E492" />
+              </svg>
+              <svg width="16" height="15" viewBox="0 0 16 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M15.0497 5.46361C14.9503 5.15808 14.6793 4.94176 14.36 4.91287L10.0042 4.51742L8.28275 0.4872C8.15565 0.191104 7.86647 0 7.54458 0C7.2227 0 6.93339 0.191104 6.80711 0.4872L5.08567 4.51742L0.729197 4.91287C0.409846 4.94234 0.139423 5.15865 0.0394963 5.46361C-0.0598547 5.76915 0.0318981 6.10427 0.273426 6.3161L3.56605 9.20326L2.59522 13.4792C2.52419 13.7936 2.64622 14.1187 2.90709 14.3072C3.04731 14.4091 3.21205 14.46 3.37737 14.46C3.51943 14.46 3.6616 14.4222 3.78859 14.3463L7.54458 12.1004L11.2999 14.3463C11.5754 14.5109 11.9218 14.4958 12.1821 14.3072C12.4429 14.1187 12.565 13.7936 12.4939 13.4792L11.5231 9.20326L14.8157 6.3161C15.0572 6.10427 15.149 5.76984 15.0497 5.46361Z"
+                  fill="#F9E492" />
+              </svg>
+            </div>
+            <p class="client-testimony">Overall experience is awesome!! I'm a visual thinker, and I couldn't function
+              without a tool like this.</p>
+          </div>
+        </div>
+      </div>
     </div>
   </section>
 
